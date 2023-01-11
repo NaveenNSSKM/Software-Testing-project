@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="343.004687">
+    <testcase classname="To fills out the registration form and ignores the confirm password" name="To fill the registration form without confirm password" time="48.725229">
+        <system-out><![CDATA[Given To launch the chrome browser and window maximise......................passed
+When To launch the Url in bisto Application.................................passed
+And To click the Account button.............................................passed
+And To pass the name in name textbox........................................passed
+And To pass the Email in email textbox......................................passed
+And To pass the mobno in mobno textbox......................................passed
+And To pass the password in password textbox................................passed
+And To click the Register button............................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To search and select  the spanish Omelet bisto application" name="To search and select the omelet" time="37.637509">
+        <system-out><![CDATA[Given To launch the chrome browser and window maximise......................passed
+When To launch the Url in bisto Application.................................passed
+And To click the search icon................................................passed
+And To pass the Spanish Omelet in search box................................passed
+And To click the Spanish Omelet.............................................passed
+And To select the option in extra meat option button........................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of bisto application" name="To validate Login with Invalid username and password" time="56.475644">
+        <system-out><![CDATA[Given To launch the chrome browser and window maximise......................passed
+When To launch the Url in bisto Application.................................passed
+And To click the Account button.............................................passed
+And To pass the invalid mobno in textbox....................................passed
+And To pass the invalid password in textbox.................................passed
+And To click the login button...............................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To search the coke bisto application" name="To search the coke in application" time="133.497708">
+        <system-out><![CDATA[Given To launch the chrome browser and window maximise......................passed
+When To launch the Url in bisto Application.................................passed
+And To click the search icon................................................passed
+And To pass the coke in search box..........................................passed
+And To click the coke can...................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the add dosa in bisto application" name="To User successfully add the Dosa" time="66.668597">
+        <system-out><![CDATA[Given To launch the chrome browser and window maximise......................passed
+When To launch the Url in bisto Application.................................passed
+And To click Dosa button....................................................passed
+And To click Masala Dosa button.............................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
